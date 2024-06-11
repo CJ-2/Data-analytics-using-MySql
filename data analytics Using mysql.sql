@@ -13,7 +13,7 @@ select EmployeeName,JobTitle from salaries ;
 select count(id) from salaries ;
 -- result=148654 employee
  
--- 4 show the unique gob titles in the table.
+-- 4 show the unique job titles in the table.
 select distinct JobTitle from salaries ;
  
 -- 5 how many types of jobs are in the table ?
